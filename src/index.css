@@ -1,0 +1,70 @@
+@import "tailwindcss";
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bt{
+    background-color: rgba(0, 0,0,0.65);
+}
+a.active{
+    color:#fb9039;
+    text-decoration: underline;
+    transform: scale(1.4);
+
+}
+.container {
+    max-width: 100%;
+}
+
+.colour{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.set{
+    background-color: rgb(29, 29, 135);
+    
+}
+.set1{
+    color: rgba(29, 29, 135, 0.923);
+}
+.col{
+    background-color: rgba(0, 0, 0, 0.107);
+    
+}
+.text{
+    font-family: 'Canela Deck Trial', sans-serif;
+    
+    
+}
+.mixed{
+    background: rgb(228,228,228);
+    background: linear-gradient(0deg, rgb(94, 188, 255) 0%, rgb(33, 157, 245) 44%, rgb(0, 42, 255) 100%);
+}
+.mix:hover{
+    background-color: #d2ddea;
+    background: rgb(228,228,228);
+    background: linear-gradient(0deg, rgb(253, 253, 253) 0%, #d7e1ec 44%, #c3d2e3 100%);
+}
+.bg{
+    background-color: rgb(254, 250, 245);
+}
+.bgblack{
+    background-color: rgba(0, 0, 0, 0.926);
+}
+
+.v{
+   background: linear-gradient(90deg, #0a74e4eb,#73a1d5, #60b1c8);  
+}
+.bar{
+    
+    overflow-x: scroll;
+   scrollbar-width:none;
+   animation: scr 10s linear infinite;
+    
+}
+@keyframes scr {
+    from{
+        transform: translateX(50%);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
