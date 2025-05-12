@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 import { NavLink } from 'react-router-dom'
 import Sidebar from './Sidebar'
 import { useState,useEffect } from 'react'
-import Scrollbar from './scrollbar'
+import Scrollbar from './Scrollbar'
 function Navbar({toggle1,handletoggle,data}) {
     const [isSet,setisset]=useState(false)
    
