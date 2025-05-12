@@ -1,5 +1,5 @@
 import React from 'react'
-import Events from '../components/events';
+import Events from '../components/Events';
 import { Link } from 'react-router-dom';
 import { useState,useEffect } from 'react';
 import Clubsaccess from '../components/Clubsaccess';
