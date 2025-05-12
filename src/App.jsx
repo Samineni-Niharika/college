@@ -11,7 +11,8 @@ import Worshops from "./pages/Worshops"
 import { useState } from "react"
 import { CiLight } from "react-icons/ci";
 import { MdNightlight } from "react-icons/md";
-import Events from "./components/events"
+
+import Events from "./components/Events"
 import Clubsaccess from "./components/Clubsaccess"
 
 
